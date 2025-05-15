@@ -7,7 +7,7 @@ import aiohttp
 import os
 
 class TicketAnalyzer:
-    DEFAULT_API_URLS = ["http://10.10.99.24:11434"]
+    DEFAULT_API_URLS = [""]
     AVAILABLE_MODELS = [
         "deepseek-r1:1.5b",
         "mistral:latest",
